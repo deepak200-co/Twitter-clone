@@ -11,7 +11,7 @@ require('dotenv').config();
 
 app.use(cors(
     {
-        origin: ["https://twitterclonedone.vercel.app"],
+        origin: ["https://twitter-clone-nu-steel.vercel.app/"],
         methods:["POST","GET"],
         credentials: true
     }
