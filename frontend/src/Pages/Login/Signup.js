@@ -47,7 +47,7 @@ const Signup = () => {
             email
 
         }
-        axios.post(`http://localhost:5000/register`, user)
+        axios.post(`https://twitter-clone-api-psi.vercel.app/register`, user)
 
     }
     const handleGoogleSignIn =() =>{
